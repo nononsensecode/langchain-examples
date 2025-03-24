@@ -106,3 +106,5 @@ output = app.invoke(
     config,
 )
 print(output["messages"][-1].content)
+
+# for more trimming options see https://python.langchain.com/docs/how_to/trim_messages/
